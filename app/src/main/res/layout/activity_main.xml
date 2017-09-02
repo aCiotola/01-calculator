@@ -29,6 +29,7 @@
         android:id="@+id/add"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="#1E669B"
         android:layout_weight="1"
         android:onClick="addNums"
         android:text="@string/add" />
@@ -36,6 +37,7 @@
         android:id="@+id/button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="#1E669B"
         android:layout_weight="1"
         android:onClick="subNums"
         android:text="@string/sub" />
@@ -45,6 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:onClick="multNums"
+        android:background="#1E669B"
         android:text="@string/mult" />
     <Button
         android:id="@+id/button3"
@@ -52,6 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:onClick="divNums"
+        android:background="#1E669B"
         android:text="@string/div" />
     </LinearLayout>
 
@@ -60,11 +64,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="clearNums"
-        android:text="@string/clearBtn" />
+        android:background="#1E669B"
+        android:text="@string/clearBtn"
+        android:textColor="#0000FF"/>
 
     <TextView
         android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/result" />
+        android:text="@string/result"
+        />
 </LinearLayout>
